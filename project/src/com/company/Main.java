@@ -5,9 +5,10 @@ import java.util.Scanner;
  */
 public class Main {
     public static void main(String[] args) {
+        System.out.print("Введите число: ");
         String number="";
         number=enter();
-        Eight s = new Eight();
+        Translate s = new Translate();
         s.setFirstNumber(number);
         s.translate();
 	// write your code here
